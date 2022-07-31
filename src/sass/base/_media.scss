@@ -1,3 +1,10 @@
+@media (min-width: 767px) {
+    .container {
+        padding: 0 40px;
+    }
+}
+
+
 @media (max-width: 769px) {
     .container {
         max-width: 720px;
@@ -18,6 +25,30 @@
             &:last-child {
                 margin-top: 20px;
             }
+        }
+    }
+
+    .consultation {
+        .title {
+            &_left {
+                text-align: center;
+            }
+        }
+        &__descr {
+            text-align: center;
+            width: 100%;
+        }
+        .feed-form {
+            align-items: center;
+            width: 100%;
+            margin: 0 auto;
+            margin-top: 30px;
+            input {
+                width: 70%;
+            }
+        }
+        .button_submit {
+            width: 70%;
         }
     }
 }
@@ -41,9 +72,19 @@
         max-width: 420px;
         flex-wrap: wrap;
     }
+
+    .consultation {
+        .title {
+            &_left {
+                text-align: center;
+                font-size: 24px;
+                line-height: 28px;
+            }
+        }
+    }
 }
 
-@media (max-width: 426px) {
+@media (max-width: 320px) {
     .promo {
         &__icons {
             max-width: 200px;
@@ -70,6 +111,16 @@
         }
     .button_main {
         margin-top: 20px;
+        }
+    }
+
+    .consultation {
+        .title {
+            &_left {
+                text-align: center;
+                font-size: 24px;
+                line-height: 28px;
+            }
         }
     }
 }
