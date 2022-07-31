@@ -1,0 +1,75 @@
+@media (max-width: 769px) {
+    .container {
+        max-width: 720px;
+    }
+    .promo__wrapper {
+        text-align: center;
+        align-items: center;
+    }
+    .benefits {
+        &__wrapper {
+        flex-wrap: wrap;
+        justify-content: space-around;
+        }
+    }
+        
+    .benefits {
+        &__benefit {
+            &:last-child {
+                margin-top: 20px;
+            }
+        }
+    }
+}
+
+@media (max-width: 426px) {
+    
+    .header {
+        &__official {
+        display: none;
+    }
+    flex-direction: column;
+        &__phone {
+            margin-top: 15px;
+        }
+    }
+    .container {
+        max-width: 400px;
+    }
+
+    .promo__icons {
+        max-width: 420px;
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 426px) {
+    .promo {
+        &__icons {
+            max-width: 200px;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            margin-top: 20px;
+        }
+        &__icon {
+            margin-top: 20px;
+        }
+        &__header {
+            font-size: 30px;
+            margin-top: 30px;
+        }
+        &__subheader {
+            font-size: 18px;
+        }
+        &__link {
+            margin-top: 30px;
+        }
+        &__wrapper {
+            padding: 0;
+        }
+    .button_main {
+        margin-top: 20px;
+        }
+    }
+}
